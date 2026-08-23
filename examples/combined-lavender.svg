@@ -8,20 +8,15 @@
     @keyframes gg-fade { from { opacity: 0.15; } }
   </style><defs><clipPath id="gg-clip"><rect width="820" height="272" rx="18"/></clipPath>
       <linearGradient id="gg-g1" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.30"/>
+        <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.14"/>
         <stop offset="35%" stop-color="#f3f0ff"/>
         <stop offset="70%" stop-color="#f3f0ff"/>
-        <stop offset="100%" stop-color="#6d28d9" stop-opacity="0.28"/>
-      </linearGradient>
-      <radialGradient id="gg-hl" cx="0.15" cy="0.0" r="0.9">
-        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
-        <stop offset="45%" stop-color="#ffffff" stop-opacity="0"/>
-      </radialGradient></defs>
+        <stop offset="100%" stop-color="#6d28d9" stop-opacity="0.12"/>
+      </linearGradient></defs>
       <rect width="820" height="272" rx="18" fill="#f3f0ff"/>
-      <rect width="820" height="272" rx="18" fill="url(#gg-g1)"/>
-      <rect width="820" height="272" rx="18" fill="url(#gg-hl)"/><rect x="0.5" y="0.5" width="819" height="271" rx="18" fill="none" stroke="#d4c8f0" stroke-width="1"/><text x="34" y="52" fill="#6d28d9" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="22" font-weight="700">Rafael Oliveira&#39;s GitHub Stats</text><g class="row" style="animation-delay:0.15s">
+      <rect width="820" height="272" rx="18" fill="url(#gg-g1)"/><rect x="0.5" y="0.5" width="819" height="271" rx="18" fill="none" stroke="#d4c8f0" stroke-width="1"/><text x="34" y="52" fill="#6d28d9" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="22" font-weight="700">Rafael Oliveira&#39;s GitHub Stats</text><g class="row" style="animation-delay:0.15s">
       <text x="34" y="104" fill="#8b7fae" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="0.3">Stars Earned</text>
-      <text x="394" y="104" text-anchor="end" fill="#3b3054" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">8</text>
+      <text x="394" y="104" text-anchor="end" fill="#3b3054" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">9</text>
     </g><g class="row" style="animation-delay:0.27s">
       <text x="34" y="144" fill="#8b7fae" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="0.3">Public Repos</text>
       <text x="394" y="144" text-anchor="end" fill="#3b3054" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">13</text>

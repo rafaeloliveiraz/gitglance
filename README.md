@@ -86,9 +86,15 @@ gitglance is meant to run as **your own** instance so it uses your rate limit.
 ![My GitHub stats](https://YOUR-APP.vercel.app/api/combined?username=YOUR_USER&style=vercel&theme=vercel)
 ```
 
+You can also try any card right now on the reference instance, just swap in your username:
+
+```md
+![My GitHub stats](https://gitglance-eight.vercel.app/api/combined?username=YOUR_USER&style=vercel&theme=vercel)
+```
+
 ## API
 
-Base: `https://YOUR-APP.vercel.app`
+Base: your deployment URL (live reference instance: `https://gitglance-eight.vercel.app`)
 
 | Endpoint | Card |
 |----------|------|
