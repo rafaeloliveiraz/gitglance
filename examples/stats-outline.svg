@@ -1,0 +1,16 @@
+<svg width="460" height="210" viewBox="0 0 460 210" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"><style>
+    .bar-fill { transform-origin: left center; animation: gg-grow 0.9s ease-out; }
+    @keyframes gg-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+  </style><rect x="1.5" y="1.5" width="457" height="207" rx="12" fill="none" stroke="#c9184a" stroke-width="2.5"/><text x="34" y="52" fill="#ff4d6d" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="22" font-weight="700">Rafael Oliveira&#39;s GitHub Stats</text><g class="row" style="animation-delay:0.15s">
+      <text x="34" y="104" fill="#a15264" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="0.3">Stars Earned</text>
+      <text x="394" y="104" text-anchor="end" fill="#ffe3e8" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">8</text>
+    </g><g class="row" style="animation-delay:0.27s">
+      <text x="34" y="144" fill="#a15264" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="0.3">Public Repos</text>
+      <text x="394" y="144" text-anchor="end" fill="#ffe3e8" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">13</text>
+    </g><g class="row" style="animation-delay:0.39s">
+      <text x="34" y="184" fill="#a15264" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="0.3">Followers</text>
+      <text x="394" y="184" text-anchor="end" fill="#ffe3e8" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">9</text>
+    </g><g class="row" style="animation-delay:0.51s">
+      <text x="34" y="224" fill="#a15264" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="0.3">Following</text>
+      <text x="394" y="224" text-anchor="end" fill="#ffe3e8" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">15</text>
+    </g></svg>

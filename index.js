@@ -55,8 +55,8 @@ async function handle(type, req, res) {
 
 app.get("/preview", (req, res) => {
   const u = req.query.username || "rafaeloliveiraz";
-  const styles = ["default", "vercel", "terminal", "glass", "minimal"];
-  const themes = ["dark", "vercel", "tokyonight", "dracula", "catppuccin", "nord", "gruvbox", "rosepine"];
+  const styles = ["default", "vercel", "terminal", "glass", "minimal", "neon", "gradient", "outline"];
+  const themes = ["dark", "vercel", "tokyonight", "dracula", "catppuccin", "nord", "gruvbox", "rosepine", "cyberpunk", "ocean", "sunset", "forest", "coffee", "midnight", "lavender", "crimson"];
   let html = `<html><head><meta charset="utf-8"><title>gitglance preview</title>
     <style>body{background:#0b0b0d;color:#eee;font-family:system-ui;margin:0;padding:32px}
     h2{margin:36px 0 12px;font-weight:600}h3{color:#888;font-weight:500;margin:20px 0 8px;font-size:14px}
@@ -71,6 +71,13 @@ app.get("/preview", (req, res) => {
   html += `</div><h2>Language card</h2><div class="row">
     <img src="/api/langs?username=${u}&theme=tokyonight">
     <img src="/api/langs?username=${u}&style=vercel&theme=vercel"></div>`;
+  html += `<h2>Chart cards</h2><div class="row">
+    <img src="/api/donut?username=${u}&theme=cyberpunk">
+    <img src="/api/rings?username=${u}&theme=midnight">
+    <img src="/api/bars?username=${u}&theme=sunset">
+    <img src="/api/donut?username=${u}&style=neon&theme=cyberpunk">
+    <img src="/api/rings?username=${u}&style=vercel&theme=vercel">
+    <img src="/api/bars?username=${u}&style=neon&theme=crimson"></div>`;
   html += `</body></html>`;
   res.setHeader("Content-Type", "text/html; charset=utf-8");
   res.send(html);
@@ -82,6 +89,9 @@ app.get("/api/stats", (req, res) => handle("stats", req, res));
 app.get("/api/langs", (req, res) => handle("langs", req, res));
 app.get("/api/top-langs", (req, res) => handle("langs", req, res));
 app.get("/api/combined", (req, res) => handle("combined", req, res));
+app.get("/api/donut", (req, res) => handle("donut", req, res));
+app.get("/api/rings", (req, res) => handle("rings", req, res));
+app.get("/api/bars", (req, res) => handle("bars", req, res));
 
 // Local dev server; on Vercel the app is exported and used as a handler.
 if (require.main === module) {

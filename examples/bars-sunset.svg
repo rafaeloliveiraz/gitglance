@@ -1,0 +1,14 @@
+<svg width="460" height="280" viewBox="0 0 460 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"><style>
+    .bar-fill { transform-origin: left center; animation: gg-grow 0.9s ease-out; }
+    @keyframes gg-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+  </style><rect width="460" height="280" rx="16" fill="#2d1b2e"/><rect x="0.5" y="0.5" width="459" height="279" rx="16" fill="none" stroke="#4d2e52" stroke-width="1"/><text x="30" y="48" fill="#ff9e64" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="22" font-weight="700">Top Languages</text><rect x="30" y="58" width="46" height="3" rx="1.5" fill="#ff9e64"/><line x1="32" y1="222" x2="428" y2="222" stroke="#4d2e52" stroke-width="1"/><rect class="bar-fill" x="57.5" y="92.0" width="42.9" height="130.0" rx="5" fill="#f1e05a"/>
+      <text x="79.0" y="84" text-anchor="middle" fill="#c98a94" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12">38%</text>
+      <text x="79.0" y="242" text-anchor="middle" fill="#ffe8d6" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12">JavaScript</text><rect class="bar-fill" x="135.6" y="135.3" width="42.9" height="86.7" rx="5" fill="#3572A5"/>
+      <text x="157.0" y="127.33333333333334" text-anchor="middle" fill="#c98a94" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12">25%</text>
+      <text x="157.0" y="242" text-anchor="middle" fill="#ffe8d6" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12">Python</text><rect class="bar-fill" x="213.6" y="178.7" width="42.9" height="43.3" rx="5" fill="#e34c26"/>
+      <text x="235.0" y="170.66666666666669" text-anchor="middle" fill="#c98a94" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12">13%</text>
+      <text x="235.0" y="242" text-anchor="middle" fill="#ffe8d6" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12">HTML</text><rect class="bar-fill" x="291.6" y="178.7" width="42.9" height="43.3" rx="5" fill="#563d7c"/>
+      <text x="313.0" y="170.66666666666669" text-anchor="middle" fill="#c98a94" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12">13%</text>
+      <text x="313.0" y="242" text-anchor="middle" fill="#ffe8d6" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12">CSS</text><rect class="bar-fill" x="369.6" y="178.7" width="42.9" height="43.3" rx="5" fill="#89e051"/>
+      <text x="391.0" y="170.66666666666669" text-anchor="middle" fill="#c98a94" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12">13%</text>
+      <text x="391.0" y="242" text-anchor="middle" fill="#ffe8d6" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12">Shell</text></svg>

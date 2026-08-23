@@ -19,9 +19,9 @@ Many themes, several visual styles, and no rate-limit headaches.
 
 Most README stats cards depend on one shared public service that constantly hits GitHub's rate limit and gets paused (you have probably seen the broken image on someone's profile). gitglance is built to be **self-hosted in one click**: deploy your own instance, give it your own GitHub token, and your cards never break because of someone else's traffic.
 
-- 🎨 **Multiple visual styles**: `default`, `vercel`, `terminal`, `glass`, `minimal`
-- 🌈 **12+ color themes**: dark, vercel, tokyonight, dracula, catppuccin, nord, gruvbox, rosepine, and more
-- 🧩 **Three card types**: overview stats, top languages, and a combined card
+- 🎨 **8 visual styles**: `default`, `vercel`, `terminal`, `glass`, `minimal`, `neon`, `gradient`, `outline`
+- 🌈 **21 color themes**: dark, vercel, tokyonight, dracula, catppuccin, nord, gruvbox, rosepine, cyberpunk, ocean, sunset, forest, coffee, midnight, lavender, crimson, and more
+- 📊 **6 card types**: stats, top languages, combined, donut chart, circular gauges, and bar chart
 - 🛠️ **Fully customizable** via URL params (colors, radius, width, title, borders)
 - ⚡ **Fast SVG** output with sensible caching
 - 🔒 **Your token, your limits**: self-host and never get rate limited again
@@ -39,6 +39,20 @@ Most README stats cards depend on one shared public service that constantly hits
 | Stats | Languages |
 |:-----:|:---------:|
 | <img src="examples/stats-catppuccin.svg" width="360"/> | <img src="examples/langs-nord.svg" width="360"/> |
+
+## Chart cards
+
+| Donut | Rings |
+|:-----:|:-----:|
+| <img src="examples/donut-cyberpunk.svg" width="380"/> | <img src="examples/rings-midnight.svg" width="400"/> |
+| **Bars (neon style)** | **Bars** |
+| <img src="examples/bars-neon.svg" width="380"/> | <img src="examples/bars-sunset.svg" width="380"/> |
+
+## More style combos
+
+| Outline | Gradient |
+|:-------:|:--------:|
+| <img src="examples/stats-outline.svg" width="380"/> | <img src="examples/combined-lavender.svg" width="440"/> |
 
 ## Quick start
 
@@ -61,6 +75,9 @@ Base: `https://YOUR-APP.vercel.app`
 | `/api/stats` | Overview numbers (stars, repos, followers, following) |
 | `/api/langs` | Most used languages |
 | `/api/combined` | Stats and languages side by side |
+| `/api/donut` | Donut chart of languages with legend |
+| `/api/rings` | Circular gauges for the four stats |
+| `/api/bars` | Vertical bar chart of languages |
 | `/api?type=stats\|langs\|combined` | Same, via the `type` param |
 
 ### Parameters
@@ -70,7 +87,7 @@ All parameters are optional except `username`.
 | Param | Description | Example |
 |-------|-------------|---------|
 | `username` | GitHub username (required) | `username=torvalds` |
-| `style` | `default`, `vercel`, `terminal`, `glass`, `minimal` | `style=vercel` |
+| `style` | `default`, `vercel`, `terminal`, `glass`, `minimal`, `neon`, `gradient`, `outline` | `style=vercel` |
 | `theme` | Color theme (see list below) | `theme=dracula` |
 | `langs_count` | Number of languages to show (1 to 10) | `langs_count=6` |
 | `title` | Custom card title | `title=My%20Stats` |
@@ -85,7 +102,7 @@ All parameters are optional except `username`.
 
 ### Themes
 
-`dark`, `light`, `vercel`, `tokyonight`, `dracula`, `nord`, `gruvbox`, `catppuccin`, `synthwave`, `rosepine`, `onedark`, `monochrome`
+`dark`, `light`, `vercel`, `tokyonight`, `dracula`, `nord`, `gruvbox`, `catppuccin`, `synthwave`, `rosepine`, `onedark`, `monochrome`, `cyberpunk`, `ocean`, `sunset`, `forest`, `coffee`, `midnight`, `lavender`, `crimson`
 
 ## Run locally
 
