@@ -1,0 +1,56 @@
+<svg width="820" height="272" viewBox="0 0 820 272" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"><style>
+    .bar-fill { transform-origin: left center; animation: gg-grow 0.9s ease-out; }
+    .vbar { transform-origin: center bottom; animation: gg-rise 0.9s ease-out; }
+    .gg-seg { animation: gg-fade 0.8s ease-out; }
+    .gg-ring { animation: gg-fade 1s ease-out; }
+    @keyframes gg-grow { from { transform: scaleX(0); } }
+    @keyframes gg-rise { from { transform: scaleY(0); } }
+    @keyframes gg-fade { from { opacity: 0.15; } }
+  </style><defs><clipPath id="gg-clip"><rect width="820" height="272" rx="20"/></clipPath>
+      <radialGradient id="gg-a1"><stop offset="0%" stop-color="#ff2ec4" stop-opacity="0.45"/><stop offset="100%" stop-color="#ff2ec4" stop-opacity="0"/></radialGradient>
+      <radialGradient id="gg-a2"><stop offset="0%" stop-color="#00f0ff" stop-opacity="0.38"/><stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/></radialGradient>
+      <radialGradient id="gg-a3"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+      <style>
+        .gg-blob1 { animation: gg-drift1 14s ease-in-out infinite alternate; }
+        .gg-blob2 { animation: gg-drift2 18s ease-in-out infinite alternate; }
+        @keyframes gg-drift1 { from { transform: translate(0,0); } to { transform: translate(66px, 14px); } }
+        @keyframes gg-drift2 { from { transform: translate(0,0); } to { transform: translate(-49px, -12px); } }
+      </style></defs>
+      <rect width="820" height="272" rx="20" fill="#0a0e27"/>
+      <g clip-path="url(#gg-clip)">
+        <ellipse class="gg-blob1" cx="180.4" cy="40.8" rx="369" ry="204" fill="url(#gg-a1)"/>
+        <ellipse class="gg-blob2" cx="697" cy="244.8" rx="410" ry="217.60000000000002" fill="url(#gg-a2)"/>
+        <ellipse cx="492" cy="27.200000000000003" rx="246" ry="136" fill="url(#gg-a3)"/>
+      </g><rect x="0.5" y="0.5" width="819" height="271" rx="20" fill="none" stroke="#1e2a6e" stroke-width="1"/><text x="34" y="52" fill="#00f0ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="22" font-weight="700">Rafael Oliveira&#39;s GitHub Stats</text><g class="row" style="animation-delay:0.15s">
+      <text x="34" y="104" fill="#5c7cfa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="0.3">Stars Earned</text>
+      <text x="394" y="104" text-anchor="end" fill="#d1f7ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">8</text>
+    </g><g class="row" style="animation-delay:0.27s">
+      <text x="34" y="144" fill="#5c7cfa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="0.3">Public Repos</text>
+      <text x="394" y="144" text-anchor="end" fill="#d1f7ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">13</text>
+    </g><g class="row" style="animation-delay:0.39s">
+      <text x="34" y="184" fill="#5c7cfa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="0.3">Followers</text>
+      <text x="394" y="184" text-anchor="end" fill="#d1f7ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">9</text>
+    </g><g class="row" style="animation-delay:0.51s">
+      <text x="34" y="224" fill="#5c7cfa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="0.3">Following</text>
+      <text x="394" y="224" text-anchor="end" fill="#d1f7ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">15</text>
+    </g><line x1="410" y1="86" x2="410" y2="242" stroke="#1e2a6e" stroke-width="1"/><text x="430" y="52" fill="#00f0ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="16" font-weight="600" letter-spacing="0.3">Most Used Languages</text><g class="row" style="animation-delay:0.2s">
+      <text x="430" y="104" fill="#d1f7ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15">JavaScript</text>
+      <text x="786" y="104" text-anchor="end" fill="#5c7cfa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13">37.5%</text>
+      <rect x="430" y="114" width="356" height="9" rx="4.5" fill="#1e2a6e"/>
+      <rect class="bar-fill" x="430" y="114" width="134" height="9" rx="4.5" fill="#f1e05a"/>
+    </g><g class="row" style="animation-delay:0.30000000000000004s">
+      <text x="430" y="150" fill="#d1f7ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15">Python</text>
+      <text x="786" y="150" text-anchor="end" fill="#5c7cfa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13">25.0%</text>
+      <rect x="430" y="160" width="356" height="9" rx="4.5" fill="#1e2a6e"/>
+      <rect class="bar-fill" x="430" y="160" width="89" height="9" rx="4.5" fill="#3572A5"/>
+    </g><g class="row" style="animation-delay:0.4s">
+      <text x="430" y="196" fill="#d1f7ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15">HTML</text>
+      <text x="786" y="196" text-anchor="end" fill="#5c7cfa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13">12.5%</text>
+      <rect x="430" y="206" width="356" height="9" rx="4.5" fill="#1e2a6e"/>
+      <rect class="bar-fill" x="430" y="206" width="45" height="9" rx="4.5" fill="#e34c26"/>
+    </g><g class="row" style="animation-delay:0.5s">
+      <text x="430" y="242" fill="#d1f7ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15">CSS</text>
+      <text x="786" y="242" text-anchor="end" fill="#5c7cfa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13">12.5%</text>
+      <rect x="430" y="252" width="356" height="9" rx="4.5" fill="#1e2a6e"/>
+      <rect class="bar-fill" x="430" y="252" width="45" height="9" rx="4.5" fill="#563d7c"/>
+    </g></svg>

@@ -1,29 +1,42 @@
 <svg width="520" height="230" viewBox="0 0 520 230" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"><style>
     .bar-fill { transform-origin: left center; animation: gg-grow 0.9s ease-out; }
-    @keyframes gg-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
-  </style><defs><linearGradient id="gg-grad" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0%" stop-color="#0b2239"/>
-        <stop offset="55%" stop-color="#0b2239"/>
-        <stop offset="100%" stop-color="#00b4d8" stop-opacity="0.35"/>
-      </linearGradient></defs>
-      <rect width="520" height="230" rx="18" fill="url(#gg-grad)"/><rect x="0.5" y="0.5" width="519" height="229" rx="18" fill="none" stroke="#1d4468" stroke-width="1"/><text x="30" y="48" fill="#4cc9f0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="22" font-weight="700">Rafael Oliveira&#39;s GitHub Stats</text>
+    .vbar { transform-origin: center bottom; animation: gg-rise 0.9s ease-out; }
+    .gg-seg { animation: gg-fade 0.8s ease-out; }
+    .gg-ring { animation: gg-fade 1s ease-out; }
+    @keyframes gg-grow { from { transform: scaleX(0); } }
+    @keyframes gg-rise { from { transform: scaleY(0); } }
+    @keyframes gg-fade { from { opacity: 0.15; } }
+  </style><defs><clipPath id="gg-clip"><rect width="520" height="230" rx="18"/></clipPath>
+      <linearGradient id="gg-g1" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#00b4d8" stop-opacity="0.30"/>
+        <stop offset="35%" stop-color="#0b2239"/>
+        <stop offset="70%" stop-color="#0b2239"/>
+        <stop offset="100%" stop-color="#4cc9f0" stop-opacity="0.28"/>
+      </linearGradient>
+      <radialGradient id="gg-hl" cx="0.15" cy="0.0" r="0.9">
+        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
+        <stop offset="45%" stop-color="#ffffff" stop-opacity="0"/>
+      </radialGradient></defs>
+      <rect width="520" height="230" rx="18" fill="#0b2239"/>
+      <rect width="520" height="230" rx="18" fill="url(#gg-g1)"/>
+      <rect width="520" height="230" rx="18" fill="url(#gg-hl)"/><rect x="0.5" y="0.5" width="519" height="229" rx="18" fill="none" stroke="#1d4468" stroke-width="1"/><text x="30" y="48" fill="#4cc9f0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="22" font-weight="700">Rafael Oliveira&#39;s GitHub Stats</text>
     <circle cx="88" cy="130" r="36" fill="none" stroke="#1d4468" stroke-width="9"/>
-    <circle cx="88" cy="130" r="36" fill="none" stroke="#00b4d8" stroke-width="9" stroke-linecap="round"
+    <circle class="gg-ring" cx="88" cy="130" r="36" fill="none" stroke="#00b4d8" stroke-width="9" stroke-linecap="round"
       stroke-dasharray="120.6 226.2" transform="rotate(-90 88 130)"/>
     <text x="88" y="136" text-anchor="middle" fill="#d8ecf8" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">8</text>
     <text x="88" y="192" text-anchor="middle" fill="#7fa8c9" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13" letter-spacing="0.3">Stars</text>
     <circle cx="206" cy="130" r="36" fill="none" stroke="#1d4468" stroke-width="9"/>
-    <circle cx="206" cy="130" r="36" fill="none" stroke="#3178c6" stroke-width="9" stroke-linecap="round"
+    <circle class="gg-ring" cx="206" cy="130" r="36" fill="none" stroke="#3178c6" stroke-width="9" stroke-linecap="round"
       stroke-dasharray="196.0 226.2" transform="rotate(-90 206 130)"/>
     <text x="206" y="136" text-anchor="middle" fill="#d8ecf8" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">13</text>
     <text x="206" y="192" text-anchor="middle" fill="#7fa8c9" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13" letter-spacing="0.3">Repos</text>
     <circle cx="324" cy="130" r="36" fill="none" stroke="#1d4468" stroke-width="9"/>
-    <circle cx="324" cy="130" r="36" fill="none" stroke="#f1e05a" stroke-width="9" stroke-linecap="round"
+    <circle class="gg-ring" cx="324" cy="130" r="36" fill="none" stroke="#f1e05a" stroke-width="9" stroke-linecap="round"
       stroke-dasharray="135.7 226.2" transform="rotate(-90 324 130)"/>
     <text x="324" y="136" text-anchor="middle" fill="#d8ecf8" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">9</text>
     <text x="324" y="192" text-anchor="middle" fill="#7fa8c9" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13" letter-spacing="0.3">Followers</text>
     <circle cx="442" cy="130" r="36" fill="none" stroke="#1d4468" stroke-width="9"/>
-    <circle cx="442" cy="130" r="36" fill="none" stroke="#41b883" stroke-width="9" stroke-linecap="round"
+    <circle class="gg-ring" cx="442" cy="130" r="36" fill="none" stroke="#41b883" stroke-width="9" stroke-linecap="round"
       stroke-dasharray="226.2 226.2" transform="rotate(-90 442 130)"/>
     <text x="442" y="136" text-anchor="middle" fill="#d8ecf8" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">15</text>
     <text x="442" y="192" text-anchor="middle" fill="#7fa8c9" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13" letter-spacing="0.3">Following</text></svg>

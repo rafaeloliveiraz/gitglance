@@ -19,10 +19,12 @@ Many themes, several visual styles, and no rate-limit headaches.
 
 Most README stats cards depend on one shared public service that constantly hits GitHub's rate limit and gets paused (you have probably seen the broken image on someone's profile). gitglance is built to be **self-hosted in one click**: deploy your own instance, give it your own GitHub token, and your cards never break because of someone else's traffic.
 
-- 🎨 **8 visual styles**: `default`, `vercel`, `terminal`, `glass`, `minimal`, `neon`, `gradient`, `outline`
+- 🎨 **12 visual styles**: `default`, `vercel`, `terminal`, `glass`, `minimal`, `neon`, `gradient`, `aurora`, `mesh`, `waves`, `dots`, `outline`
 - 🌈 **21 color themes**: dark, vercel, tokyonight, dracula, catppuccin, nord, gruvbox, rosepine, cyberpunk, ocean, sunset, forest, coffee, midnight, lavender, crimson, and more
 - 📊 **6 card types**: stats, top languages, combined, donut chart, circular gauges, and bar chart
 - 🛠️ **Fully customizable** via URL params (colors, radius, width, title, borders)
+- 🌌 **Rich backgrounds**: aurora light blobs, mesh gradients, layered waves, dot grids, all in pure SVG (no external assets, nothing to break)
+- 🎬 **Subtle animations** (bars grow, charts fade in, aurora drifts) that degrade gracefully: cards always render complete even where animations do not run
 - ⚡ **Fast SVG** output with sensible caching
 - 🔒 **Your token, your limits**: self-host and never get rate limited again
 
@@ -47,6 +49,14 @@ Most README stats cards depend on one shared public service that constantly hits
 | <img src="examples/donut-cyberpunk.svg" width="380"/> | <img src="examples/rings-midnight.svg" width="400"/> |
 | **Bars (neon style)** | **Bars** |
 | <img src="examples/bars-neon.svg" width="380"/> | <img src="examples/bars-sunset.svg" width="380"/> |
+
+## Advanced backgrounds
+
+| Aurora | Mesh |
+|:------:|:----:|
+| <img src="examples/aurora-cyberpunk.svg" width="440"/> | <img src="examples/mesh-sunset.svg" width="440"/> |
+| **Waves** | **Dots** |
+| <img src="examples/waves-ocean.svg" width="380"/> | <img src="examples/dots-midnight.svg" width="380"/> |
 
 ## More style combos
 
@@ -87,7 +97,7 @@ All parameters are optional except `username`.
 | Param | Description | Example |
 |-------|-------------|---------|
 | `username` | GitHub username (required) | `username=torvalds` |
-| `style` | `default`, `vercel`, `terminal`, `glass`, `minimal`, `neon`, `gradient`, `outline` | `style=vercel` |
+| `style` | `default`, `vercel`, `terminal`, `glass`, `minimal`, `neon`, `gradient`, `aurora`, `mesh`, `waves`, `dots`, `outline` | `style=aurora` |
 | `theme` | Color theme (see list below) | `theme=dracula` |
 | `langs_count` | Number of languages to show (1 to 10) | `langs_count=6` |
 | `title` | Custom card title | `title=My%20Stats` |

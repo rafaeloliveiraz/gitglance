@@ -1,14 +1,19 @@
-<svg width="460" height="210" viewBox="0 0 460 210" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"><style>
+<svg width="460" height="252" viewBox="0 0 460 252" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"><style>
     .bar-fill { transform-origin: left center; animation: gg-grow 0.9s ease-out; }
-    @keyframes gg-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
-  </style><rect width="460" height="210" rx="8" fill="#000000"/><rect x="0.5" y="0.5" width="459" height="209" rx="8" fill="none" stroke="#333333" stroke-width="1"/><path d="M 34 53 L 49 53 L 41.5 38 Z" fill="#ffffff"/>
+    .vbar { transform-origin: center bottom; animation: gg-rise 0.9s ease-out; }
+    .gg-seg { animation: gg-fade 0.8s ease-out; }
+    .gg-ring { animation: gg-fade 1s ease-out; }
+    @keyframes gg-grow { from { transform: scaleX(0); } }
+    @keyframes gg-rise { from { transform: scaleY(0); } }
+    @keyframes gg-fade { from { opacity: 0.15; } }
+  </style><rect width="460" height="252" rx="8" fill="#000000"/><rect x="0.5" y="0.5" width="459" height="251" rx="8" fill="none" stroke="#333333" stroke-width="1"/><path d="M 34 53 L 49 53 L 41.5 38 Z" fill="#ffffff"/>
       <text x="60" y="52" fill="#ffffff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="20" font-weight="600" letter-spacing="0.3">Rafael Oliveira&#39;s GitHub Stats</text>
       <line x1="34" y1="68" x2="426" y2="68" stroke="#333333" stroke-width="1"/><g class="row" style="animation-delay:0.15s">
       <text x="34" y="104" fill="#888888" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="1.5">STARS EARNED</text>
       <text x="394" y="104" text-anchor="end" fill="#ededed" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="19" font-weight="700">8</text>
     </g><g class="row" style="animation-delay:0.27s">
       <text x="34" y="144" fill="#888888" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="1.5">PUBLIC REPOS</text>
-      <text x="394" y="144" text-anchor="end" fill="#ededed" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="19" font-weight="700">12</text>
+      <text x="394" y="144" text-anchor="end" fill="#ededed" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="19" font-weight="700">13</text>
     </g><g class="row" style="animation-delay:0.39s">
       <text x="34" y="184" fill="#888888" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="1.5">FOLLOWERS</text>
       <text x="394" y="184" text-anchor="end" fill="#ededed" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="19" font-weight="700">9</text>
