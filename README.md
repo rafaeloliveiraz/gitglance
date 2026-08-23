@@ -21,7 +21,7 @@ Most README stats cards depend on one shared public service that constantly hits
 
 - 🎨 **12 visual styles**: `default`, `vercel`, `terminal`, `glass`, `minimal`, `neon`, `gradient`, `aurora`, `mesh`, `waves`, `dots`, `outline`
 - 🌈 **21 color themes**: dark, vercel, tokyonight, dracula, catppuccin, nord, gruvbox, rosepine, cyberpunk, ocean, sunset, forest, coffee, midnight, lavender, crimson, and more
-- 📊 **6 card types**: stats, top languages, combined, donut chart, circular gauges, and bar chart
+- 📊 **8 card types**: stats, top languages, combined, donut chart, circular gauges, bar chart, repository pin, and commit activity
 - 🛠️ **Fully customizable** via URL params (colors, radius, width, title, borders)
 - 🌌 **Rich backgrounds**: aurora light blobs, mesh gradients, layered waves, dot grids, all in pure SVG (no external assets, nothing to break)
 - 🎬 **Subtle animations** (bars grow, charts fade in, aurora drifts) that degrade gracefully: cards always render complete even where animations do not run
@@ -50,6 +50,12 @@ Most README stats cards depend on one shared public service that constantly hits
 | **Bars (neon style)** | **Bars** |
 | <img src="examples/bars-neon.svg" width="380"/> | <img src="examples/bars-sunset.svg" width="380"/> |
 
+## Repo pin and commit activity
+
+| Repository card | Commit activity (28 days) |
+|:---------------:|:-------------------------:|
+| <img src="examples/repo-gitglance.svg" width="400"/> | <img src="examples/activity-midnight.svg" width="440"/> |
+
 ## Advanced backgrounds
 
 | Aurora | Mesh |
@@ -63,6 +69,10 @@ Most README stats cards depend on one shared public service that constantly hits
 | Outline | Gradient |
 |:-------:|:--------:|
 | <img src="examples/stats-outline.svg" width="380"/> | <img src="examples/combined-lavender.svg" width="440"/> |
+
+## Live demo
+
+A gallery of every style and theme is available at **[gitglance-eight.vercel.app/preview](https://gitglance-eight.vercel.app/preview)**. Point any card at your own username by changing the `username` parameter.
 
 ## Quick start
 
@@ -88,6 +98,8 @@ Base: `https://YOUR-APP.vercel.app`
 | `/api/donut` | Donut chart of languages with legend |
 | `/api/rings` | Circular gauges for the four stats |
 | `/api/bars` | Vertical bar chart of languages |
+| `/api/repo` | Repository pin card (`username` + `repo` params) |
+| `/api/activity` | Commit activity area chart (`days` param, 7 to 60, default 28) |
 | `/api?type=stats\|langs\|combined` | Same, via the `type` param |
 
 ### Parameters

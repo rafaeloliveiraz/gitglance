@@ -1,19 +1,19 @@
 <svg width="460" height="280" viewBox="0 0 460 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"><style>
-    .bar-fill { transform-origin: left center; animation: gg-grow 0.9s ease-out; }
-    .vbar { transform-origin: center bottom; animation: gg-rise 0.9s ease-out; }
-    .gg-seg { animation: gg-fade 0.8s ease-out; }
-    .gg-ring { animation: gg-fade 1s ease-out; }
+    .bar-fill { transform-box: fill-box; transform-origin: left center; animation: gg-grow 0.9s ease-out backwards; }
+    .vbar { transform-box: fill-box; transform-origin: center bottom; animation: gg-rise 0.9s ease-out backwards; }
+    .gg-seg { animation: gg-fade 0.8s ease-out backwards; }
+    .gg-ring { animation: gg-fade 1s ease-out backwards; }
     @keyframes gg-grow { from { transform: scaleX(0); } }
     @keyframes gg-rise { from { transform: scaleY(0); } }
     @keyframes gg-fade { from { opacity: 0.15; } }
   </style><defs><filter id="gg-glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><rect width="460" height="280" rx="14" fill="#0a0e27"/><rect x="0.5" y="0.5" width="459" height="279" rx="14" fill="none" stroke="#1e2a6e" stroke-width="1"/><text x="30" y="48" fill="#00f0ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="22" font-weight="700">Top Languages</text><line x1="32" y1="222" x2="428" y2="222" stroke="#1e2a6e" stroke-width="1"/><rect class="vbar" style="animation-delay:0s" x="57.5" y="92.0" width="42.9" height="130.0" rx="5" fill="#f1e05a" filter="url(#gg-glow)"/>
-      <text x="79.0" y="84" text-anchor="middle" fill="#5c7cfa" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12">38%</text>
-      <text x="79.0" y="242" text-anchor="middle" fill="#d1f7ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12">JavaScript</text><rect class="vbar" style="animation-delay:0.07s" x="135.6" y="135.3" width="42.9" height="86.7" rx="5" fill="#3572A5" filter="url(#gg-glow)"/>
-      <text x="157.0" y="127.33333333333334" text-anchor="middle" fill="#5c7cfa" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12">25%</text>
+      <text x="79.0" y="84" text-anchor="middle" fill="#5c7cfa" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12">43%</text>
+      <text x="79.0" y="242" text-anchor="middle" fill="#d1f7ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12">JavaScript</text><rect class="vbar" style="animation-delay:0.07s" x="135.6" y="178.7" width="42.9" height="43.3" rx="5" fill="#3572A5" filter="url(#gg-glow)"/>
+      <text x="157.0" y="170.66666666666666" text-anchor="middle" fill="#5c7cfa" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12">14%</text>
       <text x="157.0" y="242" text-anchor="middle" fill="#d1f7ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12">Python</text><rect class="vbar" style="animation-delay:0.14s" x="213.6" y="178.7" width="42.9" height="43.3" rx="5" fill="#e34c26" filter="url(#gg-glow)"/>
-      <text x="235.0" y="170.66666666666669" text-anchor="middle" fill="#5c7cfa" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12">13%</text>
+      <text x="235.0" y="170.66666666666666" text-anchor="middle" fill="#5c7cfa" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12">14%</text>
       <text x="235.0" y="242" text-anchor="middle" fill="#d1f7ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12">HTML</text><rect class="vbar" style="animation-delay:0.21000000000000002s" x="291.6" y="178.7" width="42.9" height="43.3" rx="5" fill="#563d7c" filter="url(#gg-glow)"/>
-      <text x="313.0" y="170.66666666666669" text-anchor="middle" fill="#5c7cfa" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12">13%</text>
+      <text x="313.0" y="170.66666666666666" text-anchor="middle" fill="#5c7cfa" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12">14%</text>
       <text x="313.0" y="242" text-anchor="middle" fill="#d1f7ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12">CSS</text><rect class="vbar" style="animation-delay:0.28s" x="369.6" y="178.7" width="42.9" height="43.3" rx="5" fill="#89e051" filter="url(#gg-glow)"/>
-      <text x="391.0" y="170.66666666666669" text-anchor="middle" fill="#5c7cfa" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12">13%</text>
+      <text x="391.0" y="170.66666666666666" text-anchor="middle" fill="#5c7cfa" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12">14%</text>
       <text x="391.0" y="242" text-anchor="middle" fill="#d1f7ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12">Shell</text></svg>

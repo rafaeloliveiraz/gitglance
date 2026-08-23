@@ -1,6 +1,6 @@
 const express = require("express");
-const { fetchStats } = require("./lib/github");
-const { render, errorCard } = require("./lib/render");
+const { fetchStats, fetchRepo, fetchActivity } = require("./lib/github");
+const { render, errorCard, renderRepo, renderActivity } = require("./lib/render");
 const { THEMES } = require("./lib/themes");
 
 const app = express();
@@ -92,6 +92,36 @@ app.get("/api/combined", (req, res) => handle("combined", req, res));
 app.get("/api/donut", (req, res) => handle("donut", req, res));
 app.get("/api/rings", (req, res) => handle("rings", req, res));
 app.get("/api/bars", (req, res) => handle("bars", req, res));
+
+app.get("/api/repo", async (req, res) => {
+  const opts = parseOpts(req.query);
+  const username = req.query.username || req.query.user;
+  const repoName = req.query.repo;
+  if (!username || !repoName) {
+    return sendSvg(res, errorCard("Missing ?username= and ?repo= parameters", opts), 300);
+  }
+  try {
+    const repo = await fetchRepo(username, repoName);
+    sendSvg(res, renderRepo(repo, opts), 21600);
+  } catch (e) {
+    sendSvg(res, errorCard("Could not load " + username + "/" + repoName, opts), 600);
+  }
+});
+
+app.get("/api/activity", async (req, res) => {
+  const opts = parseOpts(req.query);
+  const username = req.query.username || req.query.user;
+  if (!username) {
+    return sendSvg(res, errorCard("Missing ?username= parameter", opts), 300);
+  }
+  try {
+    const days = Number(req.query.days) || 28;
+    const series = await fetchActivity(username, days);
+    sendSvg(res, renderActivity({ login: username, name: username }, series, opts), 7200);
+  } catch (e) {
+    sendSvg(res, errorCard("Could not load activity for " + username, opts), 600);
+  }
+});
 
 // Local dev server; on Vercel the app is exported and used as a handler.
 if (require.main === module) {

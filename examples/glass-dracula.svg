@@ -1,8 +1,8 @@
 <svg width="820" height="272" viewBox="0 0 820 272" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"><style>
-    .bar-fill { transform-origin: left center; animation: gg-grow 0.9s ease-out; }
-    .vbar { transform-origin: center bottom; animation: gg-rise 0.9s ease-out; }
-    .gg-seg { animation: gg-fade 0.8s ease-out; }
-    .gg-ring { animation: gg-fade 1s ease-out; }
+    .bar-fill { transform-box: fill-box; transform-origin: left center; animation: gg-grow 0.9s ease-out backwards; }
+    .vbar { transform-box: fill-box; transform-origin: center bottom; animation: gg-rise 0.9s ease-out backwards; }
+    .gg-seg { animation: gg-fade 0.8s ease-out backwards; }
+    .gg-ring { animation: gg-fade 1s ease-out backwards; }
     @keyframes gg-grow { from { transform: scaleX(0); } }
     @keyframes gg-rise { from { transform: scaleY(0); } }
     @keyframes gg-fade { from { opacity: 0.15; } }
@@ -28,22 +28,22 @@
       <text x="394" y="224" text-anchor="end" fill="#f8f8f2" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">15</text>
     </g><line x1="410" y1="86" x2="410" y2="242" stroke="#44475a" stroke-width="1"/><text x="430" y="52" fill="#ff79c6" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="16" font-weight="600" letter-spacing="0.3">Most Used Languages</text><g class="row" style="animation-delay:0.2s">
       <text x="430" y="104" fill="#f8f8f2" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15">JavaScript</text>
-      <text x="786" y="104" text-anchor="end" fill="#6272a4" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13">37.5%</text>
+      <text x="786" y="104" text-anchor="end" fill="#6272a4" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13">42.9%</text>
       <rect x="430" y="114" width="356" height="9" rx="4.5" fill="#44475a"/>
-      <rect class="bar-fill" x="430" y="114" width="134" height="9" rx="4.5" fill="#f1e05a"/>
+      <rect class="bar-fill" x="430" y="114" width="153" height="9" rx="4.5" fill="#f1e05a"/>
     </g><g class="row" style="animation-delay:0.30000000000000004s">
       <text x="430" y="150" fill="#f8f8f2" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15">Python</text>
-      <text x="786" y="150" text-anchor="end" fill="#6272a4" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13">25.0%</text>
+      <text x="786" y="150" text-anchor="end" fill="#6272a4" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13">14.3%</text>
       <rect x="430" y="160" width="356" height="9" rx="4.5" fill="#44475a"/>
-      <rect class="bar-fill" x="430" y="160" width="89" height="9" rx="4.5" fill="#3572A5"/>
+      <rect class="bar-fill" x="430" y="160" width="51" height="9" rx="4.5" fill="#3572A5"/>
     </g><g class="row" style="animation-delay:0.4s">
       <text x="430" y="196" fill="#f8f8f2" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15">HTML</text>
-      <text x="786" y="196" text-anchor="end" fill="#6272a4" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13">12.5%</text>
+      <text x="786" y="196" text-anchor="end" fill="#6272a4" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13">14.3%</text>
       <rect x="430" y="206" width="356" height="9" rx="4.5" fill="#44475a"/>
-      <rect class="bar-fill" x="430" y="206" width="45" height="9" rx="4.5" fill="#e34c26"/>
+      <rect class="bar-fill" x="430" y="206" width="51" height="9" rx="4.5" fill="#e34c26"/>
     </g><g class="row" style="animation-delay:0.5s">
       <text x="430" y="242" fill="#f8f8f2" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15">CSS</text>
-      <text x="786" y="242" text-anchor="end" fill="#6272a4" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13">12.5%</text>
+      <text x="786" y="242" text-anchor="end" fill="#6272a4" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13">14.3%</text>
       <rect x="430" y="252" width="356" height="9" rx="4.5" fill="#44475a"/>
-      <rect class="bar-fill" x="430" y="252" width="45" height="9" rx="4.5" fill="#563d7c"/>
+      <rect class="bar-fill" x="430" y="252" width="51" height="9" rx="4.5" fill="#563d7c"/>
     </g></svg>

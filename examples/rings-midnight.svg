@@ -1,8 +1,8 @@
 <svg width="520" height="230" viewBox="0 0 520 230" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"><style>
-    .bar-fill { transform-origin: left center; animation: gg-grow 0.9s ease-out; }
-    .vbar { transform-origin: center bottom; animation: gg-rise 0.9s ease-out; }
-    .gg-seg { animation: gg-fade 0.8s ease-out; }
-    .gg-ring { animation: gg-fade 1s ease-out; }
+    .bar-fill { transform-box: fill-box; transform-origin: left center; animation: gg-grow 0.9s ease-out backwards; }
+    .vbar { transform-box: fill-box; transform-origin: center bottom; animation: gg-rise 0.9s ease-out backwards; }
+    .gg-seg { animation: gg-fade 0.8s ease-out backwards; }
+    .gg-ring { animation: gg-fade 1s ease-out backwards; }
     @keyframes gg-grow { from { transform: scaleX(0); } }
     @keyframes gg-rise { from { transform: scaleY(0); } }
     @keyframes gg-fade { from { opacity: 0.15; } }
