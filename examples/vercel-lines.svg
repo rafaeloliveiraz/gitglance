@@ -1,0 +1,56 @@
+<svg width="820" height="272" viewBox="0 0 820 272" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"><style>
+    .bar-fill { transform-box: fill-box; transform-origin: left center; animation: gg-grow 0.9s ease-out backwards; }
+    .vbar { transform-box: fill-box; transform-origin: center bottom; animation: gg-rise 0.9s ease-out backwards; }
+    .gg-seg { animation: gg-fade 0.8s ease-out backwards; }
+    .gg-ring { animation: gg-fade 1s ease-out backwards; }
+    @keyframes gg-grow { from { transform: scaleX(0); } }
+    @keyframes gg-rise { from { transform: scaleY(0); } }
+    @keyframes gg-fade { from { opacity: 0.15; } }
+  </style><defs><clipPath id="gg-clip"><rect width="820" height="272" rx="8"/></clipPath>
+      <linearGradient id="gg-sweep" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+        <stop offset="50%" stop-color="#ffffff" stop-opacity="0.07"/>
+        <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      </linearGradient>
+      <style>
+        .gg-sw { animation: gg-sweepmove 5s linear infinite; }
+        @keyframes gg-sweepmove { from { transform: translateX(-140px); } to { transform: translateX(960px); } }
+      </style></defs>
+      <rect width="820" height="272" rx="8" fill="#000000"/>
+      <g clip-path="url(#gg-clip)"><line x1="0" y1="26" x2="820" y2="26" stroke="#ededed" stroke-opacity="0.05" stroke-width="1"/><line x1="0" y1="52" x2="820" y2="52" stroke="#ededed" stroke-opacity="0.05" stroke-width="1"/><line x1="0" y1="78" x2="820" y2="78" stroke="#ededed" stroke-opacity="0.05" stroke-width="1"/><line x1="0" y1="104" x2="820" y2="104" stroke="#ededed" stroke-opacity="0.05" stroke-width="1"/><line x1="0" y1="130" x2="820" y2="130" stroke="#ededed" stroke-opacity="0.05" stroke-width="1"/><line x1="0" y1="156" x2="820" y2="156" stroke="#ededed" stroke-opacity="0.05" stroke-width="1"/><line x1="0" y1="182" x2="820" y2="182" stroke="#ededed" stroke-opacity="0.05" stroke-width="1"/><line x1="0" y1="208" x2="820" y2="208" stroke="#ededed" stroke-opacity="0.05" stroke-width="1"/><line x1="0" y1="234" x2="820" y2="234" stroke="#ededed" stroke-opacity="0.05" stroke-width="1"/><line x1="0" y1="260" x2="820" y2="260" stroke="#ededed" stroke-opacity="0.05" stroke-width="1"/>
+        <rect class="gg-sw" x="0" y="0" width="140" height="272" fill="url(#gg-sweep)"/>
+      </g><rect x="0.5" y="0.5" width="819" height="271" rx="8" fill="none" stroke="#333333" stroke-width="1"/><path d="M 34 53 L 49 53 L 41.5 38 Z" fill="#ffffff"/>
+      <text x="60" y="52" fill="#ffffff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="20" font-weight="600" letter-spacing="0.3">Rafael Oliveira&#39;s GitHub Stats</text>
+      <line x1="34" y1="68" x2="786" y2="68" stroke="#333333" stroke-width="1"/><g class="row" style="animation-delay:0.15s">
+      <text x="34" y="104" fill="#888888" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="1.5">STARS EARNED</text>
+      <text x="394" y="104" text-anchor="end" fill="#ededed" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="19" font-weight="700">9</text>
+    </g><g class="row" style="animation-delay:0.27s">
+      <text x="34" y="144" fill="#888888" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="1.5">PUBLIC REPOS</text>
+      <text x="394" y="144" text-anchor="end" fill="#ededed" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="19" font-weight="700">13</text>
+    </g><g class="row" style="animation-delay:0.39s">
+      <text x="34" y="184" fill="#888888" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="1.5">FOLLOWERS</text>
+      <text x="394" y="184" text-anchor="end" fill="#ededed" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="19" font-weight="700">9</text>
+    </g><g class="row" style="animation-delay:0.51s">
+      <text x="34" y="224" fill="#888888" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="1.5">FOLLOWING</text>
+      <text x="394" y="224" text-anchor="end" fill="#ededed" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="19" font-weight="700">15</text>
+    </g><line x1="410" y1="86" x2="410" y2="242" stroke="#333333" stroke-width="1"/><text x="430" y="52" fill="#ffffff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="16" font-weight="600" letter-spacing="1.5">MOST USED LANGUAGES</text><g class="row" style="animation-delay:0.2s">
+      <text x="430" y="104" fill="#ededed" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15">JavaScript</text>
+      <text x="786" y="104" text-anchor="end" fill="#888888" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13">42.9%</text>
+      <rect x="430" y="114" width="356" height="9" rx="4.5" fill="#333333"/>
+      <rect class="bar-fill" x="430" y="114" width="153" height="9" rx="4.5" fill="#f1e05a"/>
+    </g><g class="row" style="animation-delay:0.30000000000000004s">
+      <text x="430" y="150" fill="#ededed" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15">Python</text>
+      <text x="786" y="150" text-anchor="end" fill="#888888" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13">14.3%</text>
+      <rect x="430" y="160" width="356" height="9" rx="4.5" fill="#333333"/>
+      <rect class="bar-fill" x="430" y="160" width="51" height="9" rx="4.5" fill="#3572A5"/>
+    </g><g class="row" style="animation-delay:0.4s">
+      <text x="430" y="196" fill="#ededed" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15">HTML</text>
+      <text x="786" y="196" text-anchor="end" fill="#888888" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13">14.3%</text>
+      <rect x="430" y="206" width="356" height="9" rx="4.5" fill="#333333"/>
+      <rect class="bar-fill" x="430" y="206" width="51" height="9" rx="4.5" fill="#e34c26"/>
+    </g><g class="row" style="animation-delay:0.5s">
+      <text x="430" y="242" fill="#ededed" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15">CSS</text>
+      <text x="786" y="242" text-anchor="end" fill="#888888" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13">14.3%</text>
+      <rect x="430" y="252" width="356" height="9" rx="4.5" fill="#333333"/>
+      <rect class="bar-fill" x="430" y="252" width="51" height="9" rx="4.5" fill="#563d7c"/>
+    </g></svg>

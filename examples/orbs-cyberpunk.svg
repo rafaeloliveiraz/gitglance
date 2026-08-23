@@ -1,0 +1,30 @@
+<svg width="460" height="252" viewBox="0 0 460 252" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"><style>
+    .bar-fill { transform-box: fill-box; transform-origin: left center; animation: gg-grow 0.9s ease-out backwards; }
+    .vbar { transform-box: fill-box; transform-origin: center bottom; animation: gg-rise 0.9s ease-out backwards; }
+    .gg-seg { animation: gg-fade 0.8s ease-out backwards; }
+    .gg-ring { animation: gg-fade 1s ease-out backwards; }
+    @keyframes gg-grow { from { transform: scaleX(0); } }
+    @keyframes gg-rise { from { transform: scaleY(0); } }
+    @keyframes gg-fade { from { opacity: 0.15; } }
+  </style><defs><clipPath id="gg-clip"><rect width="460" height="252" rx="18"/></clipPath><style>.gg-o0 { animation: gg-orb0 3.4s ease-in-out 0s infinite alternate; }
+        @keyframes gg-orb0 { from { opacity: 0.08; transform: translateY(0); } to { opacity: 0.4; transform: translateY(14px); } }.gg-o1 { animation: gg-orb1 4.2s ease-in-out 0.6s infinite alternate; }
+        @keyframes gg-orb1 { from { opacity: 0.08; transform: translateY(0); } to { opacity: 0.4; transform: translateY(-14px); } }.gg-o2 { animation: gg-orb2 5s ease-in-out 1.2s infinite alternate; }
+        @keyframes gg-orb2 { from { opacity: 0.08; transform: translateY(0); } to { opacity: 0.4; transform: translateY(14px); } }.gg-o3 { animation: gg-orb3 3.8s ease-in-out 0.3s infinite alternate; }
+        @keyframes gg-orb3 { from { opacity: 0.08; transform: translateY(0); } to { opacity: 0.4; transform: translateY(-14px); } }.gg-o4 { animation: gg-orb4 4.6s ease-in-out 0.9s infinite alternate; }
+        @keyframes gg-orb4 { from { opacity: 0.08; transform: translateY(0); } to { opacity: 0.4; transform: translateY(14px); } }.gg-o5 { animation: gg-orb5 3.2s ease-in-out 1.5s infinite alternate; }
+        @keyframes gg-orb5 { from { opacity: 0.08; transform: translateY(0); } to { opacity: 0.4; transform: translateY(-14px); } }.gg-o6 { animation: gg-orb6 4s ease-in-out 0.2s infinite alternate; }
+        @keyframes gg-orb6 { from { opacity: 0.08; transform: translateY(0); } to { opacity: 0.4; transform: translateY(14px); } }</style></defs>
+      <rect width="460" height="252" rx="18" fill="#0a0e27"/>
+      <g clip-path="url(#gg-clip)"><circle class="gg-o0" cx="55" cy="202" r="34" fill="#ff2ec4" opacity="0.2"/><circle class="gg-o1" cx="138" cy="50" r="20" fill="#00f0ff" opacity="0.2"/><circle class="gg-o2" cx="239" cy="214" r="26" fill="#ff2ec4" opacity="0.2"/><circle class="gg-o3" cx="313" cy="38" r="16" fill="#00f0ff" opacity="0.2"/><circle class="gg-o4" cx="386" cy="176" r="40" fill="#ff2ec4" opacity="0.2"/><circle class="gg-o5" cx="432" cy="63" r="14" fill="#00f0ff" opacity="0.2"/><circle class="gg-o6" cx="193" cy="126" r="10" fill="#ff2ec4" opacity="0.2"/></g><rect x="0.5" y="0.5" width="459" height="251" rx="18" fill="none" stroke="#1e2a6e" stroke-width="1"/><text x="34" y="52" fill="#00f0ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="22" font-weight="700">Rafael Oliveira&#39;s GitHub Stats</text><g class="row" style="animation-delay:0.15s">
+      <text x="34" y="104" fill="#5c7cfa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="0.3">Stars Earned</text>
+      <text x="394" y="104" text-anchor="end" fill="#d1f7ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">9</text>
+    </g><g class="row" style="animation-delay:0.27s">
+      <text x="34" y="144" fill="#5c7cfa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="0.3">Public Repos</text>
+      <text x="394" y="144" text-anchor="end" fill="#d1f7ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">13</text>
+    </g><g class="row" style="animation-delay:0.39s">
+      <text x="34" y="184" fill="#5c7cfa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="0.3">Followers</text>
+      <text x="394" y="184" text-anchor="end" fill="#d1f7ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">9</text>
+    </g><g class="row" style="animation-delay:0.51s">
+      <text x="34" y="224" fill="#5c7cfa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="0.3">Following</text>
+      <text x="394" y="224" text-anchor="end" fill="#d1f7ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">15</text>
+    </g></svg>

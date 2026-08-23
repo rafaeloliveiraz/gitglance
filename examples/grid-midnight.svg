@@ -1,0 +1,36 @@
+<svg width="460" height="252" viewBox="0 0 460 252" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"><style>
+    .bar-fill { transform-box: fill-box; transform-origin: left center; animation: gg-grow 0.9s ease-out backwards; }
+    .vbar { transform-box: fill-box; transform-origin: center bottom; animation: gg-rise 0.9s ease-out backwards; }
+    .gg-seg { animation: gg-fade 0.8s ease-out backwards; }
+    .gg-ring { animation: gg-fade 1s ease-out backwards; }
+    @keyframes gg-grow { from { transform: scaleX(0); } }
+    @keyframes gg-rise { from { transform: scaleY(0); } }
+    @keyframes gg-fade { from { opacity: 0.15; } }
+  </style><defs><clipPath id="gg-clip"><rect width="460" height="252" rx="16"/></clipPath>
+      <pattern id="gg-gridp" width="26" height="26" patternUnits="userSpaceOnUse">
+        <path d="M26 0H0V26" fill="none" stroke="#e2e8f0" stroke-opacity="0.14" stroke-width="1"/>
+      </pattern>
+      <style>
+        .gg-z1 { animation: gg-zone 3.2s ease-in-out infinite alternate; }
+        .gg-z2 { animation: gg-zone 4.1s ease-in-out 0.8s infinite alternate; }
+        .gg-z3 { animation: gg-zone 5s ease-in-out 1.6s infinite alternate; }
+        @keyframes gg-zone { from { opacity: 0.15; } to { opacity: 1; } }
+      </style></defs>
+      <rect width="460" height="252" rx="16" fill="#020617"/>
+      <g clip-path="url(#gg-clip)">
+        <rect class="gg-z1" x="0" width="154" height="252" fill="url(#gg-gridp)"/>
+        <rect class="gg-z2" x="154" width="154" height="252" fill="url(#gg-gridp)"/>
+        <rect class="gg-z3" x="308" width="154" height="252" fill="url(#gg-gridp)"/>
+      </g><rect x="0.5" y="0.5" width="459" height="251" rx="16" fill="none" stroke="#1e293b" stroke-width="1"/><text x="34" y="52" fill="#818cf8" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="22" font-weight="700">Rafael Oliveira&#39;s GitHub Stats</text><g class="row" style="animation-delay:0.15s">
+      <text x="34" y="104" fill="#64748b" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="0.3">Stars Earned</text>
+      <text x="394" y="104" text-anchor="end" fill="#e2e8f0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">9</text>
+    </g><g class="row" style="animation-delay:0.27s">
+      <text x="34" y="144" fill="#64748b" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="0.3">Public Repos</text>
+      <text x="394" y="144" text-anchor="end" fill="#e2e8f0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">13</text>
+    </g><g class="row" style="animation-delay:0.39s">
+      <text x="34" y="184" fill="#64748b" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="0.3">Followers</text>
+      <text x="394" y="184" text-anchor="end" fill="#e2e8f0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">9</text>
+    </g><g class="row" style="animation-delay:0.51s">
+      <text x="34" y="224" fill="#64748b" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" letter-spacing="0.3">Following</text>
+      <text x="394" y="224" text-anchor="end" fill="#e2e8f0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="19" font-weight="700">15</text>
+    </g></svg>

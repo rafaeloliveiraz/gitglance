@@ -11,6 +11,10 @@ Many themes, several visual styles, and no rate-limit headaches.
 
 <br/>
 
+<a href="https://gitglance-eight.vercel.app"><img src="https://img.shields.io/badge/⚡_Build_your_card_now-open_the_builder-ffffff?style=for-the-badge&labelColor=000000&color=ffffff" alt="Open the card builder"/></a>
+
+<br/>
+
 <img src="examples/vercel.svg" width="640" alt="gitglance vercel style" />
 
 </div>
@@ -19,12 +23,13 @@ Many themes, several visual styles, and no rate-limit headaches.
 
 Most README stats cards depend on one shared public service that constantly hits GitHub's rate limit and gets paused (you have probably seen the broken image on someone's profile). gitglance is built to be **self-hosted in one click**: deploy your own instance, give it your own GitHub token, and your cards never break because of someone else's traffic.
 
-- 🎨 **12 visual styles**: `default`, `vercel`, `terminal`, `glass`, `minimal`, `neon`, `gradient`, `aurora`, `mesh`, `waves`, `dots`, `outline`
+- 🎨 **16 visual styles**: `default`, `vercel`, `vercel-lines`, `mono`, `terminal`, `glass`, `minimal`, `neon`, `gradient`, `aurora`, `mesh`, `waves`, `dots`, `grid`, `orbs`, `outline`
 - 🌈 **21 color themes**: dark, vercel, tokyonight, dracula, catppuccin, nord, gruvbox, rosepine, cyberpunk, ocean, sunset, forest, coffee, midnight, lavender, crimson, and more
 - 📊 **8 card types**: stats, top languages, combined, donut chart, circular gauges, bar chart, repository pin, and commit activity
 - 🛠️ **Fully customizable** via URL params (colors, radius, width, title, borders)
 - 🌌 **Rich backgrounds**: aurora light blobs, mesh gradients, layered waves, dot grids, all in pure SVG (no external assets, nothing to break)
-- 🎬 **Subtle animations** (bars grow, charts fade in, aurora drifts) that degrade gracefully: cards always render complete even where animations do not run
+- 🎬 **Animations that degrade gracefully**: bars grow, charts fade in, aurora drifts, grid zones pulse, orbs float, a light sweep crosses vercel-lines. Cards always render complete even where animations do not run
+- 🧰 **Card builder page**: open your instance root, pick options in dropdowns and copy the code
 - ⚡ **Fast SVG** output with sensible caching
 - 🔒 **Your token, your limits**: self-host and never get rate limited again
 
@@ -35,6 +40,10 @@ Most README stats cards depend on one shared public service that constantly hits
 | <img src="examples/vercel.svg" width="420"/> | <img src="examples/terminal-gruvbox.svg" width="420"/> |
 | **`default`** | **`glass`** |
 | <img src="examples/default-tokyonight.svg" width="420"/> | <img src="examples/glass-dracula.svg" width="420"/> |
+| **`vercel-lines`** (animated sweep) | **`mono`** (pure black and white) |
+| <img src="examples/vercel-lines.svg" width="420"/> | <img src="examples/mono.svg" width="420"/> |
+| **`grid`** (zones pulse) | **`orbs`** (floating circles) |
+| <img src="examples/grid-midnight.svg" width="420"/> | <img src="examples/orbs-cyberpunk.svg" width="420"/> |
 
 ## Card types
 
@@ -72,7 +81,7 @@ Most README stats cards depend on one shared public service that constantly hits
 
 ## Live demo
 
-A gallery of every style and theme is available at **[gitglance-eight.vercel.app/preview](https://gitglance-eight.vercel.app/preview)**. Point any card at your own username by changing the `username` parameter.
+Use the **[card builder](https://gitglance-eight.vercel.app)** to assemble your card visually and copy the code. A gallery of every style and theme is available at **[gitglance-eight.vercel.app/preview](https://gitglance-eight.vercel.app/preview)**. Point any card at your own username by changing the `username` parameter.
 
 ## Quick start
 
@@ -115,7 +124,7 @@ All parameters are optional except `username`.
 | Param | Description | Example |
 |-------|-------------|---------|
 | `username` | GitHub username (required) | `username=torvalds` |
-| `style` | `default`, `vercel`, `terminal`, `glass`, `minimal`, `neon`, `gradient`, `aurora`, `mesh`, `waves`, `dots`, `outline` | `style=aurora` |
+| `style` | `default`, `vercel`, `vercel-lines`, `mono`, `terminal`, `glass`, `minimal`, `neon`, `gradient`, `aurora`, `mesh`, `waves`, `dots`, `grid`, `orbs`, `outline` | `style=aurora` |
 | `theme` | Color theme (see list below) | `theme=dracula` |
 | `langs_count` | Number of languages to show (1 to 10) | `langs_count=6` |
 | `title` | Custom card title | `title=My%20Stats` |
