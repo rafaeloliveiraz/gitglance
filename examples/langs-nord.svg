@@ -1,0 +1,29 @@
+<svg width="380" height="366" viewBox="0 0 380 366" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"><style>
+    .bar-fill { transform-origin: left center; animation: gg-grow 0.9s ease-out; }
+    @keyframes gg-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+  </style><rect width="380" height="366" rx="16" fill="#2e3440"/><rect x="0.5" y="0.5" width="379" height="365" rx="16" fill="none" stroke="#434c5e" stroke-width="1"/><text x="30" y="50" fill="#88c0d0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="22" font-weight="700">Most Used Languages</text><rect x="30" y="60" width="46" height="3" rx="1.5" fill="#88c0d0"/><g class="row" style="animation-delay:0.2s">
+      <text x="30" y="100" fill="#e5e9f0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15">Python</text>
+      <text x="350" y="100" text-anchor="end" fill="#7b88a1" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13">28.6%</text>
+      <rect x="30" y="110" width="320" height="9" rx="4.5" fill="#434c5e"/>
+      <rect class="bar-fill" x="30" y="110" width="91" height="9" rx="4.5" fill="#3572A5"/>
+    </g><g class="row" style="animation-delay:0.30000000000000004s">
+      <text x="30" y="146" fill="#e5e9f0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15">JavaScript</text>
+      <text x="350" y="146" text-anchor="end" fill="#7b88a1" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13">28.6%</text>
+      <rect x="30" y="156" width="320" height="9" rx="4.5" fill="#434c5e"/>
+      <rect class="bar-fill" x="30" y="156" width="91" height="9" rx="4.5" fill="#f1e05a"/>
+    </g><g class="row" style="animation-delay:0.4s">
+      <text x="30" y="192" fill="#e5e9f0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15">HTML</text>
+      <text x="350" y="192" text-anchor="end" fill="#7b88a1" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13">14.3%</text>
+      <rect x="30" y="202" width="320" height="9" rx="4.5" fill="#434c5e"/>
+      <rect class="bar-fill" x="30" y="202" width="46" height="9" rx="4.5" fill="#e34c26"/>
+    </g><g class="row" style="animation-delay:0.5s">
+      <text x="30" y="238" fill="#e5e9f0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15">CSS</text>
+      <text x="350" y="238" text-anchor="end" fill="#7b88a1" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13">14.3%</text>
+      <rect x="30" y="248" width="320" height="9" rx="4.5" fill="#434c5e"/>
+      <rect class="bar-fill" x="30" y="248" width="46" height="9" rx="4.5" fill="#563d7c"/>
+    </g><g class="row" style="animation-delay:0.6000000000000001s">
+      <text x="30" y="284" fill="#e5e9f0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15">Shell</text>
+      <text x="350" y="284" text-anchor="end" fill="#7b88a1" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13">14.3%</text>
+      <rect x="30" y="294" width="320" height="9" rx="4.5" fill="#434c5e"/>
+      <rect class="bar-fill" x="30" y="294" width="46" height="9" rx="4.5" fill="#89e051"/>
+    </g></svg>
