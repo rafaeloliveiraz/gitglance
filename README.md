@@ -28,7 +28,7 @@ Most README stats cards depend on one shared public service that constantly hits
 - 📊 **8 card types**: stats, top languages, combined, donut chart, circular gauges, bar chart, repository pin, and commit activity
 - 🛠️ **Fully customizable** via URL params (colors, radius, width, title, borders)
 - 🌌 **Rich backgrounds**: aurora light blobs, mesh gradients, layered waves, dot grids, all in pure SVG (no external assets, nothing to break)
-- 🎬 **Animations that degrade gracefully**: bars grow, charts fade in, aurora drifts, grid zones pulse, orbs float, a light sweep crosses vercel-lines. Cards always render complete even where animations do not run
+- 🎬 **Animations that degrade gracefully**: bars grow, charts fade in, aurora drifts, orbs float, a light sweep crosses vercel-lines. Cards always render complete even where animations do not run
 - 🧰 **Card builder page**: open your instance root, pick options in dropdowns and copy the code
 - ⚡ **Fast SVG** output with sensible caching
 - 🔒 **Your token, your limits**: self-host and never get rate limited again
@@ -42,7 +42,7 @@ Most README stats cards depend on one shared public service that constantly hits
 | <img src="examples/default-tokyonight.svg" width="420"/> | <img src="examples/glass-dracula.svg" width="420"/> |
 | **`vercel-lines`** (animated sweep) | **`mono`** (pure black and white) |
 | <img src="examples/vercel-lines.svg" width="420"/> | <img src="examples/mono.svg" width="420"/> |
-| **`grid`** (zones pulse) | **`orbs`** (floating circles) |
+| **`grid`** (blueprint pattern) | **`orbs`** (floating circles) |
 | <img src="examples/grid-midnight.svg" width="420"/> | <img src="examples/orbs-cyberpunk.svg" width="420"/> |
 
 ## Card types
