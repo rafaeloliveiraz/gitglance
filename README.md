@@ -139,7 +139,7 @@ All parameters are optional except `username`.
 
 ### Themes
 
-`dark`, `light`, `vercel`, `tokyonight`, `dracula`, `nord`, `gruvbox`, `catppuccin`, `synthwave`, `rosepine`, `onedark`, `monochrome`, `cyberpunk`, `ocean`, `sunset`, `forest`, `coffee`, `midnight`, `lavender`, `crimson`
+`kangel`, `dark`, `light`, `vercel`, `tokyonight`, `dracula`, `nord`, `gruvbox`, `catppuccin`, `synthwave`, `rosepine`, `onedark`, `monochrome`, `cyberpunk`, `ocean`, `sunset`, `forest`, `coffee`, `midnight`, `lavender`, `crimson`
 
 ## Run locally
 
@@ -167,3 +167,15 @@ New themes and styles are very welcome. A theme is a small palette in `lib/theme
 <br/>
 If gitglance is useful to you, a ⭐ helps other people find it.
 </div>
+
+## Kangel theme
+
+Use `theme=kangel` for a pink background, purple text, mint accents, and pixel typography. Ring cards use purple stars, blue repos, red followers, mint following, and pink background tracks.
+
+![Kangel rings and stats preview](examples/kangel.png)
+
+```markdown
+![GitHub rings](https://YOUR-APP.vercel.app/api/rings?username=YOUR_USER&theme=kangel)
+```
+
+Labels use DinkieBitmap 7px, numbers use Press Start 2P, and titles use Perfect DOS VGA 437. Wide values fall back to DinkieBitmap; wide titles fall back to PixelMplus10 Regular, with size fitting where needed. Text is rendered as accessible SVG outlines; unsupported characters retain the original SVG text. Other themes keep their existing typography. Font credits and terms are in [fonts/README.md](fonts/README.md).

@@ -5,14 +5,27 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "preview": "node scripts/preview.js"
+    "preview": "node scripts/preview.js",
+    "build:fonts": "node scripts/build-fonts.cjs",
+    "test": "node --test"
   },
-  "keywords": ["github", "stats", "readme", "svg", "profile", "cards", "badge"],
+  "keywords": [
+    "github",
+    "stats",
+    "readme",
+    "svg",
+    "profile",
+    "cards",
+    "badge"
+  ],
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2"
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "opentype.js": "2.0.0"
   }
 }
