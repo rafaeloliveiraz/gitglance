@@ -66,13 +66,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Regenerate lib/pixel-fonts.json from the fonts/ sources
+      - name: Regenerate every theme's pixel-fonts.json from its font sources
         run: npm run build:fonts
 
-      - name: Fail if the regenerated file differs from the committed one
+      - name: Fail if a regenerated file differs from the committed one
         run: |
-          if ! git diff --quiet -- lib/pixel-fonts.json; then
-            echo "lib/pixel-fonts.json is out of date. Run 'npm run build:fonts' and commit the result."
-            git diff --stat -- lib/pixel-fonts.json
+          if ! git diff --quiet -- 'lib/themes/*/pixel-fonts.json'; then
+            echo "A theme's pixel-fonts.json is out of date. Run 'npm run build:fonts' and commit the result."
+            git diff --stat -- 'lib/themes/*/pixel-fonts.json'
             exit 1
           fi
