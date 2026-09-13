@@ -78,6 +78,28 @@ Most README stats cards depend on one shared public service that constantly hits
 | Outline | Gradient |
 |:-------:|:--------:|
 | <img src="examples/stats-outline.svg" width="380"/> | <img src="examples/combined-lavender.svg" width="440"/> |
+| **Kangel** (pixel typography, custom rings) | **Kangel** (stats) |
+| <img src="examples/rings-kangel.svg" width="380"/> | <img src="examples/stats-kangel.svg" width="380"/> |
+
+`theme=kangel` pairs a pink/purple/mint palette with pixel typography (Latin
+text rendered as SVG glyph outlines, with automatic fallback fonts and
+sizing for long values). Font credits and terms are in
+[lib/themes/kangel/README.md](lib/themes/kangel/README.md).
+
+## Create your own theme
+
+Have a color palette you love? We would love to add it. A theme is a small,
+self-contained file, no design tooling or backend knowledge required.
+Follow the step-by-step guide in [docs/THEMES.md](docs/THEMES.md), open a
+pull request, and add yourself to the Contributions table below.
+
+## Contributions
+
+Everyone below has contributed a theme, style, or card to gitglance. Thank you!
+
+| Theme/Style | Contributor | Comment |
+| --- | --- | --- |
+| [Kangel](#themes) | [@mikotokuroko](https://github.com/mikotokuroko) | Pixel typography and custom ring colors inspired by the game Needy Streamer Overload |
 
 ## Live demo
 
@@ -157,7 +179,7 @@ gitglance fetches public data from the GitHub REST API and renders a self-contai
 
 ## Contributing
 
-New themes and styles are very welcome. A theme is a small palette in `lib/themes.js`; a style is a set of visual tokens in `lib/render.js`. Open a PR with a screenshot.
+New themes and styles are very welcome. A theme is a small palette in `lib/themes/`; a style is a set of visual tokens in `lib/styles/`. See [docs/THEMES.md](docs/THEMES.md) for a step-by-step guide, including optional custom fonts and other per-theme behavior, plus how to add a new visual style or card type. Open a PR with a screenshot.
 
 ## License
 
@@ -167,15 +189,3 @@ New themes and styles are very welcome. A theme is a small palette in `lib/theme
 <br/>
 If gitglance is useful to you, a ⭐ helps other people find it.
 </div>
-
-## Kangel theme
-
-Use `theme=kangel` for a pink background, purple text, mint accents, and pixel typography. Ring cards use purple stars, blue repos, red followers, mint following, and pink background tracks.
-
-![Kangel rings and stats preview](examples/kangel.png)
-
-```markdown
-![GitHub rings](https://YOUR-APP.vercel.app/api/rings?username=YOUR_USER&theme=kangel)
-```
-
-Labels use DinkieBitmap 7px, numbers use Press Start 2P, and titles use Perfect DOS VGA 437. Wide values fall back to DinkieBitmap; wide titles fall back to PixelMplus10 Regular, with size fitting where needed. Text is rendered as accessible SVG outlines; unsupported characters retain the original SVG text. Other themes keep their existing typography. Font credits and terms are in [fonts/README.md](fonts/README.md).

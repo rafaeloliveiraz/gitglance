@@ -29,3 +29,9 @@ test('Wide numbers use the compact fallback', () => {
   assert.ok(svg.includes('data-font="DinkieBitmap-7px"'));
   assert.ok(svg.includes('aria-label="123456"'));
 });
+test('Text elements with nested markup (e.g. a colored tspan) are left untouched', () => {
+  const input = '<svg width="520"><text x="94" y="52" font-size="15">~/demo <tspan fill="#4e23cf">--stats</tspan></text></svg>';
+  assert.equal(pixelText(input, {theme:'kangel'}), input);
+  const terminal = render('stats', data, {theme:'kangel', style:'terminal'});
+  assert.ok(terminal.includes('<tspan'));
+});
