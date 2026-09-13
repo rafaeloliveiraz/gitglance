@@ -1,0 +1,78 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Test (Node ${{ matrix.node }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: ["18.x", "20.x", "22.x"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node ${{ matrix.node }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm test
+
+      - name: Verify the app boots
+        run: |
+          node index.js &
+          pid=$!
+          for i in $(seq 1 20); do
+            if curl -fs "http://localhost:3000/" > /dev/null; then
+              echo "Server responded"
+              kill $pid
+              exit 0
+            fi
+            sleep 0.5
+          done
+          echo "Server did not respond in time"
+          kill $pid
+          exit 1
+
+  fonts:
+    name: Font build is reproducible
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20.x"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Regenerate lib/pixel-fonts.json from the fonts/ sources
+        run: npm run build:fonts
+
+      - name: Fail if the regenerated file differs from the committed one
+        run: |
+          if ! git diff --quiet -- lib/pixel-fonts.json; then
+            echo "lib/pixel-fonts.json is out of date. Run 'npm run build:fonts' and commit the result."
+            git diff --stat -- lib/pixel-fonts.json
+            exit 1
+          fi
