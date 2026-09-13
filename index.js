@@ -56,7 +56,7 @@ async function handle(type, req, res) {
 app.get("/preview", (req, res) => {
   const u = req.query.username || "rafaeloliveiraz";
   const styles = ["default", "vercel", "vercel-lines", "mono", "terminal", "glass", "minimal", "neon", "gradient", "aurora", "mesh", "waves", "dots", "grid", "orbs", "outline"];
-  const themes = ["kangel", "dark", "vercel", "tokyonight", "dracula", "catppuccin", "nord", "gruvbox", "rosepine", "cyberpunk", "ocean", "sunset", "forest", "coffee", "midnight", "lavender", "crimson"];
+  const themes = Object.keys(THEMES);
   let html = `<html><head><meta charset="utf-8"><title>gitglance preview</title>
     <style>body{background:#0b0b0d;color:#eee;font-family:system-ui;margin:0;padding:32px}
     h2{margin:36px 0 12px;font-weight:600}h3{color:#888;font-weight:500;margin:20px 0 8px;font-size:14px}
