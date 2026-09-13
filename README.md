@@ -157,7 +157,7 @@ gitglance fetches public data from the GitHub REST API and renders a self-contai
 
 ## Contributing
 
-New themes and styles are very welcome. A theme is a small palette in `lib/themes.js`; a style is a set of visual tokens in `lib/render.js`. Open a PR with a screenshot.
+New themes and styles are very welcome. A theme is a small palette in `lib/themes.js`; a style is a set of visual tokens in `lib/render.js`. See [docs/THEMES.md](docs/THEMES.md) for a step-by-step guide to adding a theme, including optional custom fonts and other per-theme behavior. Open a PR with a screenshot.
 
 ## License
 
@@ -178,4 +178,4 @@ Use `theme=kangel` for a pink background, purple text, mint accents, and pixel t
 ![GitHub rings](https://YOUR-APP.vercel.app/api/rings?username=YOUR_USER&theme=kangel)
 ```
 
-Labels use DinkieBitmap 7px, numbers use Press Start 2P, and titles use Perfect DOS VGA 437. Wide values fall back to DinkieBitmap; wide titles fall back to PixelMplus10 Regular, with size fitting where needed. Text is rendered as accessible SVG outlines; unsupported characters retain the original SVG text. Other themes keep their existing typography. Font credits and terms are in [fonts/README.md](fonts/README.md).
+Labels use DinkieBitmap 7px, numbers use Press Start 2P, and titles use Perfect DOS VGA 437. Wide values fall back to DinkieBitmap; wide titles fall back to PixelMplus10 Regular, with size fitting where needed. Text is rendered as accessible SVG outlines; unsupported characters retain the original SVG text. Other themes keep their existing typography. Font credits and terms are in [fonts/kangel/README.md](fonts/kangel/README.md).
