@@ -1,7 +1,7 @@
-﻿PixelMplus（ピクセル・エムプラス）
+PixelMplus（ピクセル・エムプラス）
 =================================
 
-Copyright (C) 2013 itouhiro  
+Copyright (C) 2013 itouhiro
 Copyright (C) 2002-2013 M+ FONTS PROJECT
 
 ![on Windows](misc/pixelmplus-20130602124852.png)
@@ -31,7 +31,7 @@ Feature
   元にしたビットマップフォントが 12ピクセルであるか、10ピクセルであるか、の点が違います。
 
 
-詳しくは以下を参照。  
+詳しくは以下を参照。
 http://itouhiro.hatenablog.com/entry/20130602/font
 
 
